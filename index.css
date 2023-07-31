@@ -1,11 +1,61 @@
 *{
     line-height: 1.5;
+    border: 2px solid red;
+}
+
+span.highlight{
+    display: inline-block;
+    width: 380px;
+}
+
+.box-one{
+    background-color: red;
+    padding: 20px;
+    justify-content: space-around;
+    border: 20px solid tomato;
+}
+.box-two{
+    background-color: blue;
+    border: 0 solid aqua;
+}
+
+h1{
+    margin: 20px auto auto;
+    padding: 50px;
+    justify-content: center;
+}
+
+h2{
+   display: inline-block;
+   display: flex;
+   flex-direction: row;
+  
+}
+
+button{
+    transition: transform .3s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+.noodle{
+    color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
+}
+
+.hangin-around,.see{
+    color: red;
+    width: 200x;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
 
 body{
-    background-color: rgb(113, 204, 204);
+    background-color: rgb(204, 113, 113);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -18,4 +68,39 @@ h1{
 div.bold-text{
     font-weight: bold;
     color:aliceblue;
+}
+
+img{
+    width: 200px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+#container{
+    border: 1px solid red;
+}
+
+.links{
+    border:1px soild black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.head-container{
+    color: #5995da;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 900px;
+    height:300px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
